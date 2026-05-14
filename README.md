@@ -26,13 +26,9 @@ This project presents the design and simulation of a 24-hour digital clock using
 
 ## RTL Schematic
 
-## RTL Schematic
-
 ![RTL Schematic](dig_clk.png)
 
-## Simulation Results
-
-## Simulation Results
+## Simulation Result 
 
 ![Simulation](dig_clk1.png)
 
