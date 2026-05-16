@@ -34,8 +34,8 @@ The design is modeled using Register Transfer Level (RTL) methodology and verifi
 - `clk_24_hr_tb.v` – Testbench for simulation and verification
 - `Digital_Clock.pdf` – Project documentation report
 - `dig_clk.png` – RTL schematic output
-- `vivado_sim.png` – Vivado simulation waveform
-- `modelsim_sim.png` – ModelSim simulation waveform
+- `dig_clk1_sim.png` – Vivado simulation waveform
+- `dig_clk_Modelsim.png` – ModelSim simulation waveform
 
 ---
 
@@ -47,13 +47,13 @@ The design is modeled using Register Transfer Level (RTL) methodology and verifi
 
 ## Vivado Simulation Output
 
-![Vivado Simulation](vivado_sim.png)
+![Vivado Simulation](dig_clk1.png)
 
 ---
 
 ## ModelSim Simulation Output
 
-![ModelSim Simulation](modelsim_sim.png)
+![ModelSim Simulation](dig_clk_Modelsim.png)
 
 ---
 
