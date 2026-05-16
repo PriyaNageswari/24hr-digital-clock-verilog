@@ -2,42 +2,77 @@
 
 ## Overview
 
-This project presents the design and simulation of a 24-hour digital clock using Verilog HDL in Vivado. The design is based on sequential digital logic and implements seconds, minutes, and hours counters with rollover functionality.
+This project presents the design and simulation of a 24-hour digital clock using Verilog HDL. The system is designed using sequential digital logic to display hours, minutes, and seconds in real time. Separate counters are implemented for seconds, minutes, and hours along with rollover conditions to maintain accurate time progression in 24-hour format.
+
+The design is modeled using Register Transfer Level (RTL) methodology and verified through simulation using Vivado and ModelSim.
+
+---
 
 ## Features
 
 - 24-hour clock format
 - Seconds, minutes, and hours counters
-- Clock divider for 1 Hz signal generation
 - Sequential RTL design
+- Rollover logic implementation
 - Reset functionality
-- Simulation in Vivado
+- Vivado RTL schematic generation
+- Simulation and verification using Vivado and ModelSim
+
+---
 
 ## Technologies Used
 
 - Verilog HDL
 - Vivado
+- ModelSim
+
+---
 
 ## Project Files
 
-- `clk_24_hr.v` – Verilog HDL source code
+- `clk_24_hr.v` – Main Verilog HDL design file
+- `clk_24_hr_tb.v` – Testbench for simulation and verification
 - `Digital_Clock.pdf` – Project documentation report
-- `dig_clk.png` – RTL schematic / simulation image
+- `dig_clk.png` – RTL schematic output
+- `vivado_sim.png` – Vivado simulation waveform
+- `modelsim_sim.png` – ModelSim simulation waveform
+
+---
 
 ## RTL Schematic
 
 ![RTL Schematic](dig_clk.png)
 
-## Simulation Result 
+---
 
-![Simulation](dig_clk1.png)
+## Vivado Simulation Output
+
+![Vivado Simulation](vivado_sim.png)
+
+---
+
+## ModelSim Simulation Output
+
+![ModelSim Simulation](modelsim_sim.png)
+
+---
+
+## Verification
+
+The functionality of the digital clock was verified using a dedicated Verilog testbench in Vivado and ModelSim simulation environments. The simulation waveforms confirm correct operation of seconds, minutes, and hours counters along with proper rollover behavior and reset functionality.
+
+---
 
 ## Future Scope
 
-- Seven-segment display interfacing
 - FPGA implementation
+- Seven-segment display interfacing
 - Alarm and timer functionality
+- Stopwatch feature
 - Modular RTL optimization
+- FSM-based control architecture
+
+---
 
 ## Author
 
